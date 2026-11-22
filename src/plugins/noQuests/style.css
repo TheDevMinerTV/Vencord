@@ -1,0 +1,7 @@
+li:has(> * a[href="/quest-home"]),
+li:has(> a[href="/quest-home"]),
+a[href="/quest-home"],
+a[href^="/discovery/quests"],
+[data-list-item-id$="quests"] {
+    display: none !important;
+}
